@@ -1,0 +1,5 @@
+package quizDAO.copy;
+
+public class QuestionSQL {
+
+}

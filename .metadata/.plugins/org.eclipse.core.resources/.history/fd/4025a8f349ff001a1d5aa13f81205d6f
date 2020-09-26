@@ -1,0 +1,24 @@
+package quizDAO;
+
+import java.util.Random;
+
+public class QuestionSQL {
+	public String[] questionData() {
+		//Randomインスタンスを生成
+		Random random = new Random();
+		//0を発生させないため(割り算に不都合)
+		//引数を9にしてそこに1を加える
+		int x = random.nextInt(9) + 1;
+		int y = random.nextInt(9) + 1;
+		String[] questions = {
+				x + "+" + y + "= の値を求めよ", //一問目
+				"底辺が" + x + "cm,高さが" + y +
+						"cmの三角形の面積を求めよ。" +
+						//\n～改行
+						"\nただし割り切れない場合小数第2位は四捨五入する", //二問目
+				"縦が" + x + "cm,横が" + y + "cmの長方形を求めよ",//三問目
+
+		};
+		return questions;
+	}
+}

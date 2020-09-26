@@ -1,0 +1,7 @@
+package quizModel;
+
+import java.io.Serializable;
+
+public class QuizPattern implements Serializable {
+
+}

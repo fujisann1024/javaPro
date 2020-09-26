@@ -1,0 +1,7 @@
+
+public class test {
+	public static void main(String[] args) {
+		double number = 13.5;
+		System.out.println(number);
+	}
+}

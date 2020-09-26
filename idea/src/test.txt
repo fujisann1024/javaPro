@@ -1,0 +1,14 @@
+(A)questionsの中身を表示
+System.out.print(questions[i]); ok
+(B)for文ですべて表示 ok
+※for文の条件式がi <= questions.length;だと
+例外(java.lang.ArrayIndexOutOfBoundsException)が発生する
+    ->存在しない要素が使われていますよ
+  なぜ？questions.length=3
+        questions[3]は存在しない
+        question[3] = questions.length=3を比較する際に発生した
+(C)forを作ってint型の配列の中身を表示
+ok
+(D)if文で正解,不正解を表示できるか ok
+
+(E)

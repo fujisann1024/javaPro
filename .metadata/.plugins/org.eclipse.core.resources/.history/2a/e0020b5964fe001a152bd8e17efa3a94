@@ -1,0 +1,12 @@
+
+public class test {
+	public static void main(String[] args) {
+		double number = 13.55;
+		number = (double)Math.round(number * 10)/10;
+		System.out.println(number);
+		double number1 = 40.56;
+		int number2 = 10;
+		double pro = number1 * number2;
+
+	}
+}

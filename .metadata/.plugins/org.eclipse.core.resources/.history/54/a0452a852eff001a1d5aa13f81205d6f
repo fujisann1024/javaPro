@@ -1,0 +1,11 @@
+//JavaBeansのルール①～⑤
+//①クラスはpublicでパッケージに所属している
+package quizModel;
+
+import java.io.Serializable;
+//②直列化可能である(Serializableを実装している)
+public class QuizData implements Serializable {
+	//③フィールドはカプセル化する
+	//クイズに関するフィールド
+	
+}

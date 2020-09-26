@@ -1,0 +1,8 @@
+
+9月 26, 2020 16:21:10.230 NEW SESSION
+9月 26, 2020 16:21:10.231 [19632:20188:0926/162110.218:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+9月 26, 2020 16:21:35.16 [19632:17804:0926/162135.016:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 26, 2020 16:22:01.684 [19632:17804:0926/162201.682:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 26, 2020 16:22:51.275 [19632:17804:0926/162251.274:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 26, 2020 16:24:47.370 [19632:17804:0926/162447.370:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 26, 2020 16:27:45.463 [19632:17804:0926/162745.463:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105

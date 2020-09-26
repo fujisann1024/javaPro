@@ -1,0 +1,7 @@
+package quizDAO;
+
+public class QuestionSQL {
+	public String[] questionData() {
+		
+	}
+}

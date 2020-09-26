@@ -1,0 +1,7 @@
+
+public class test {
+	public static void main(String[] args) {
+		double number = 13.45;
+		System.out.println(Math.round(number));
+	}
+}

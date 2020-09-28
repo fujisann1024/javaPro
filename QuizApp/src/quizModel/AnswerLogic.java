@@ -15,6 +15,6 @@ public class AnswerLogic {
 		指定の位置に値を格納し,もともとあった値を後ろ
 		にずらす
 		*/
-		answerDataList.add(0,answer);
+		answerDataList.add(answer);
 	}
 }

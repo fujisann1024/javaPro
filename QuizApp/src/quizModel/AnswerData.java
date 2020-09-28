@@ -1,14 +1,16 @@
+//JavaBeansのルール①～⑤
 package quizModel;
 
 import java.io.Serializable;
-
+//②直列化可能である(Serializableを実装している)
 public class AnswerData implements Serializable {
-
+	//③カプセル化されたフィールドを持つ
 	private int score;
 	private String answer;
-
+	//④publicで引数のないコンストラクタを持つ
 	public AnswerData() {    }
-
+	//⑤命名規則に従って(キャメルケース)書かれた
+		//ゲッター、セッターを持つ
 	public AnswerData(String answer) {
 		this.answer = answer;
 	}

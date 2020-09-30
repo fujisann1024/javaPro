@@ -6,3 +6,158 @@
 9月 26, 2020 16:22:51.275 [19632:17804:0926/162251.274:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
 9月 26, 2020 16:24:47.370 [19632:17804:0926/162447.370:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
 9月 26, 2020 16:27:45.463 [19632:17804:0926/162745.463:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+9月 26, 2020 21:12:32.339 NEW SESSION
+9月 26, 2020 21:12:32.465 [20468:15216:0926/211231.687:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+9月 26, 2020 21:13:11.670 [20468:15644:0926/211311.670:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 26, 2020 21:13:37.288 [20468:15644:0926/211337.287:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 26, 2020 21:14:49.826 [20468:15644:0926/211449.826:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 26, 2020 21:16:59.975 [18472:19944:0926/211659.975:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+9月 26, 2020 22:34:12.368 [18472:17176:0926/223412.352:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 26, 2020 22:35:27.479 [18472:17176:0926/223527.463:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 26, 2020 22:38:34.519 [18472:15024:0926/223834.519:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 26, 2020 22:43:15.594 [18472:12408:0926/224315.594:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 26, 2020 22:45:09.736 [18472:17448:0926/224509.736:ERROR:sharing_service.cc(285)] Device un-registration failed with transient error
+9月 26, 2020 22:53:15.697 [18472:8940:0926/225315.697:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 26, 2020 23:03:15.845 [18472:8940:0926/230315.842:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 26, 2020 23:05:19.488 [18472:21456:0926/230519.488:ERROR:socket_stream.cc(219)] Closing stream with result -2
+9月 26, 2020 23:05:38.381 [18472:4292:0926/230538.381:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 27, 2020 24:05:11.806 [18472:11276:0927/000511.796:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 27, 2020 24:05:15.733 [18472:21456:0927/000515.729:ERROR:socket_stream.cc(219)] Closing stream with result -2
+9月 27, 2020 24:05:18.192 [18472:21456:0927/000518.192:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 27, 2020 24:05:18.553 [18472:9436:0927/000518.228:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 27, 2020 24:05:19.296 [18472:21456:0927/000518.228:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 27, 2020 24:05:19.612 [18472:9436:0927/000519.612:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 27, 2020 24:05:19.628 [18472:21456:0927/000519.616:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 27, 2020 24:05:20.96 [18472:21456:0927/000520.096:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 27, 2020 24:05:20.176 [18472:9436:0927/000520.096:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 27, 2020 24:43:55.427 [18472:21456:0927/004355.427:ERROR:socket_stream.cc(219)] Closing stream with result -2
+9月 27, 2020 24:45:42.241 [18472:21456:0927/004542.241:ERROR:socket_stream.cc(219)] Closing stream with result -2
+9月 27, 2020 24:45:42.851 [18472:21456:0927/004542.851:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 27, 2020 24:45:43.829 [18472:21456:0927/004543.829:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+9月 28, 2020 16:31:22.225 NEW SESSION
+9月 28, 2020 16:31:22.240 [21336:6908:0928/163121.943:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+9月 28, 2020 16:31:34.533 [21336:12224:0928/163134.533:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 16:31:56.262 [21336:12224:0928/163156.262:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 16:32:39.530 [21336:12224:0928/163239.530:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 16:34:39.336 [21336:12224:0928/163439.336:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 16:37:50.277 [21336:12224:0928/163750.277:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 16:43:47.330 [21336:12224:0928/164347.330:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 16:53:47.345 [21336:12224:0928/165347.345:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 17:03:47.348 [21336:12224:0928/170347.348:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 17:13:47.360 [21336:12224:0928/171347.360:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 17:23:47.364 [21336:12224:0928/172347.364:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 17:33:47.372 [21336:12224:0928/173347.372:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+9月 28, 2020 20:04:24.749 NEW SESSION
+9月 28, 2020 20:04:24.749 [21200:15708:0928/200424.437:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+9月 28, 2020 20:04:50.558 [21200:14172:0928/200450.557:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 20:05:13.329 [21200:14172:0928/200513.327:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 28, 2020 20:06:19.169 [21200:14172:0928/200619.168:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 20:07:41.975 [21200:14172:0928/200741.973:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 28, 2020 20:11:44.234 [21200:14172:0928/201144.233:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 20:17:34.436 [21200:14172:0928/201734.433:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 28, 2020 20:27:55.498 [21200:14172:0928/202755.496:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 20:35:54.225 [21200:14172:0928/203554.225:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+9月 28, 2020 20:36:18.285 [21200:14172:0928/203618.285:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 20:46:18.473 [21200:14172:0928/204618.473:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 28, 2020 20:56:39.608 [21200:14172:0928/205639.608:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 21:06:39.678 [21200:14172:0928/210639.677:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 28, 2020 21:17:00.754 [21200:14172:0928/211700.754:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 21:27:00.827 [21200:14172:0928/212700.827:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 28, 2020 21:37:21.940 [21200:14172:0928/213721.940:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 21:42:42.38 [20356:22380:0928/214242.038:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+9月 28, 2020 21:43:09.145 [20356:6656:0928/214309.144:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 21:43:37.716 [20356:6656:0928/214337.716:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 28, 2020 21:44:58.92 [20356:6656:0928/214458.092:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 21:46:51.825 [20356:6656:0928/214651.809:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 28, 2020 21:50:20.373 [20356:6656:0928/215020.373:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 21:57:30.212 [20356:6656:0928/215730.212:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 28, 2020 22:07:51.299 [20356:6656:0928/220751.296:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 22:17:51.409 [20356:6656:0928/221751.409:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 28, 2020 22:28:12.515 [20356:6656:0928/222812.515:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 22:41:43.744 [20720:20744:0928/224143.728:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+9月 28, 2020 22:42:18.256 [20720:19216:0928/224218.256:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 22:42:41.646 [20720:19216:0928/224241.645:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 28, 2020 22:43:48.467 [20720:19216:0928/224348.467:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 22:45:37.476 [20720:19216:0928/224537.476:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 28, 2020 22:49:26.610 [20720:19216:0928/224926.610:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 28, 2020 22:57:21.05 [20720:19216:0928/225721.005:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 28, 2020 23:00:57.654 [20720:19216:0928/230057.654:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 23:44:32.769 [20720:19216:0928/234432.769:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 23:44:35.380 [20720:19216:0928/234435.380:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 23:44:37.396 [20720:19216:0928/234437.396:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 23:54:04.427 [20720:19216:0928/235404.427:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 28, 2020 23:54:07.470 [20720:19216:0928/235407.466:ERROR:socket_stream.cc(219)] Closing stream with result -2
+9月 29, 2020 24:45:52.398 [20720:19216:0929/004552.382:ERROR:socket_stream.cc(219)] Closing stream with result -2
+9月 29, 2020 03:45:56.57 [20720:19216:0929/034556.057:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+9月 29, 2020 03:45:58.659 [20720:19216:0929/034558.659:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 16:29:37.700 [20720:19216:0929/162937.696:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+9月 29, 2020 16:30:07.148 [20720:6324:0929/162939.701:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 16:30:07.163 [20720:19216:0929/162941.840:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 16:30:07.163 [20720:6324:0929/162942.843:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 16:30:07.179 [20720:19216:0929/162945.283:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 16:30:07.179 [20720:19216:0929/162945.295:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 16:30:07.194 [20720:19216:0929/162945.787:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 16:31:37.182 [20720:12384:0929/163137.182:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 16:32:22.205 [20720:17888:0929/163222.205:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 16:33:30.232 [20720:12384:0929/163330.232:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 16:35:52.440 [20720:19216:0929/163552.440:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 16:36:20.244 [20720:12384:0929/163620.244:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 16:42:57.900 [20720:14304:0929/164257.900:ERROR:sharing_service.cc(285)] Device un-registration failed with transient error
+9月 29, 2020 16:43:25.256 [20720:17888:0929/164325.256:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 16:45:52.453 [20720:19216:0929/164552.453:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 16:53:25.274 [20720:12384:0929/165325.274:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 16:55:52.469 [20720:19216:0929/165552.469:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 17:03:25.294 [20720:12384:0929/170325.294:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 17:05:52.481 [20720:19216:0929/170552.481:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 17:13:25.308 [20720:17888:0929/171325.308:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 17:15:52.490 [20720:19216:0929/171552.490:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 17:23:25.326 [20720:15256:0929/172325.326:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 17:25:52.492 [20720:19216:0929/172552.492:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 17:33:25.338 [20720:19476:0929/173325.338:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 17:35:52.510 [20720:19216:0929/173552.510:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 17:38:07.156 [20720:19216:0929/173807.156:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9月 29, 2020 20:38:08.330 [20720:19476:0929/203808.330:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 20:38:09.11 [20720:19216:0929/203808.346:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9月 29, 2020 20:38:14.226 [20720:19216:0929/203814.226:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 20:38:14.242 [20720:19896:0929/203814.226:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 20:38:20.864 [20720:19476:0929/203820.864:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 20:38:21.185 [20720:19216:0929/203821.185:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -107
+9月 29, 2020 20:38:23.927 [20720:16848:0929/203823.923:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 20:38:24.150 [20720:19216:0929/203824.150:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -107
+9月 29, 2020 20:38:28.513 [20720:19896:0929/203828.513:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 23:59:11.513 [20720:19216:0929/235911.513:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+9月 29, 2020 23:59:14.242 [20720:23176:0929/235912.872:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 23:59:14.726 [20720:19216:0929/235914.089:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+9月 29, 2020 23:59:14.742 [20720:19216:0929/235914.089:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+9月 29, 2020 23:59:14.742 [20720:19216:0929/235914.089:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 23:59:14.758 [20720:16848:0929/235914.089:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 23:59:16.913 [20720:19216:0929/235916.913:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 23:59:17.368 [20720:23176:0929/235916.913:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 29, 2020 23:59:19.920 [20720:19216:0929/235919.920:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 29, 2020 23:59:21.53 [20720:16848:0929/235919.920:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 30, 2020 24:40:26.296 [20720:19216:0930/004026.296:ERROR:socket_stream.cc(219)] Closing stream with result -2
+9月 30, 2020 03:40:35.500 [20720:19216:0930/034035.500:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+9月 30, 2020 03:40:38.910 [20720:19216:0930/034037.859:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 30, 2020 11:15:24.843 [20720:19216:0930/111524.843:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+9月 30, 2020 11:15:51.07 [20720:1416:0930/111528.754:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 30, 2020 11:15:51.38 [20720:19216:0930/111530.022:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 30, 2020 11:15:51.54 [20720:13928:0930/111533.453:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 30, 2020 11:15:51.86 [20720:19216:0930/111533.473:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 30, 2020 11:15:51.94 [20720:19216:0930/111540.113:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 30, 2020 11:16:43.832 [20720:12672:0930/111643.832:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 30, 2020 11:17:28.894 [20720:12672:0930/111728.890:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 30, 2020 11:19:17.447 [20720:19216:0930/111917.447:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+9月 30, 2020 11:19:20.975 [20720:12672:0930/111920.975:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 30, 2020 11:22:09.56 [20720:8848:0930/112209.052:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 30, 2020 11:25:43.264 [20720:19216:0930/112543.264:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 30, 2020 11:28:41.689 [20720:14304:0930/112841.689:ERROR:sharing_service.cc(285)] Device un-registration failed with transient error
+9月 30, 2020 11:29:09.124 [20720:8848:0930/112909.124:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 30, 2020 11:30:27.878 [20720:19216:0930/113027.878:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9月 30, 2020 11:30:27.921 [20720:17316:0930/113027.878:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 30, 2020 11:30:32.178 [20720:8848:0930/113032.178:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 30, 2020 11:30:32.214 [20720:19216:0930/113032.178:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+9月 30, 2020 11:30:36.18 [20720:14216:0930/113036.018:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9月 30, 2020 11:30:57.22 [20720:19216:0930/113057.022:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118

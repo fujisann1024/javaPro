@@ -1,5 +1,3 @@
-import quizModel.QuizData;
-
 public class Test {
 
 	public static void ary1(String[] ary) {
@@ -16,12 +14,8 @@ public class Test {
 
 	//テスト
 	public static void main(String[] args) {
-		QuizData quizData = new QuizData();
-		String[] a = quizData.getQuestions();
-		ary1(a);
-		double[] b = quizData.getTruth();
-		ary2(b);
 
 	}
+
 
 }

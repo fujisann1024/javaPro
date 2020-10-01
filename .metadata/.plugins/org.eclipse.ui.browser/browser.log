@@ -161,3 +161,302 @@
 9月 30, 2020 11:30:32.214 [20720:19216:0930/113032.178:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
 9月 30, 2020 11:30:36.18 [20720:14216:0930/113036.018:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
 9月 30, 2020 11:30:57.22 [20720:19216:0930/113057.022:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+
+10月 01, 2020 10:13:31.711 NEW SESSION
+10月 01, 2020 10:13:31.712 [21688:20508:1001/101331.643:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 10:13:46.398 [21688:16928:1001/101346.397:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 10:13:46.409 [21688:16928:1001/101346.398:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 10:14:10.897 [21688:16928:1001/101410.895:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 10:14:15.401 [21688:16928:1001/101415.400:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 10:14:56.930 [21688:16928:1001/101456.929:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 10:15:10.900 [21688:16928:1001/101510.900:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 10:16:34.360 [21688:16928:1001/101634.360:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 10:16:51.614 [21688:16928:1001/101651.613:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 10:19:48.367 [21688:16928:1001/101948.365:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 10:19:48.870 [21688:16928:1001/101948.869:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+
+10月 01, 2020 11:14:50.71 NEW SESSION
+10月 01, 2020 11:14:50.72 [22852:18256:1001/111449.667:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 11:14:56.150 [22852:14016:1001/111456.147:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 11:14:56.188 [22852:14016:1001/111456.151:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 11:15:16.978 [22852:14016:1001/111516.977:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 11:15:20.308 [22852:14016:1001/111520.307:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 11:16:04.595 [22852:14016:1001/111604.594:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 11:16:07.392 [22852:14016:1001/111607.391:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 11:17:42.663 [22852:14016:1001/111742.661:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 11:18:05.516 [22852:14016:1001/111805.514:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 11:19:06.916 [8256:25928:1001/111906.915:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 11:19:26.538 [8256:5204:1001/111926.537:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 11:19:26.556 [8256:5204:1001/111926.540:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 11:19:53.302 [8256:5204:1001/111953.300:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 11:19:54.24 [8256:5204:1001/111954.022:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 11:20:34.555 [8256:5204:1001/112034.553:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 11:20:43.43 [8256:5204:1001/112043.040:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 11:22:00.252 [8256:5204:1001/112200.251:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 11:22:27.964 [8256:5204:1001/112227.962:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 11:25:20.776 [8256:5204:1001/112520.774:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 11:25:44.445 [8256:5204:1001/112544.443:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 11:30:59.19 [8256:5204:1001/113059.018:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 11:33:15.88 [8256:5204:1001/113315.086:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 11:40:59.24 [8256:5204:1001/114059.023:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 11:50:59.30 [8256:5204:1001/115059.030:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+10月 01, 2020 11:55:52.874 NEW SESSION
+10月 01, 2020 11:55:52.874 [19876:5064:1001/115552.872:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 11:56:03.719 [19876:17168:1001/115603.719:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 11:56:03.735 [19876:17168:1001/115603.721:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 11:56:25.848 [19876:17168:1001/115625.846:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 11:56:33.485 [19876:17168:1001/115633.483:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 11:57:12.993 [19876:17168:1001/115712.991:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 11:57:22.464 [19876:17168:1001/115722.463:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 11:58:48.852 [19876:17168:1001/115848.850:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 11:58:53.814 [19876:17168:1001/115853.813:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 12:01:53.294 [19876:17168:1001/120153.292:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 12:02:17.637 [19876:17168:1001/120217.635:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 12:09:22.139 [19876:17168:1001/120922.137:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 12:10:10.858 [19876:17168:1001/121010.856:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 12:19:22.143 [19876:17168:1001/121922.141:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 12:29:22.146 [19876:17168:1001/122922.144:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 12:39:22.149 [19876:17168:1001/123922.148:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 12:42:57.915 [5300:21904:1001/124257.914:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 12:43:01.193 [5300:9332:1001/124301.192:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 12:43:01.201 [5300:9332:1001/124301.193:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 12:45:52.480 [7764:13660:1001/124552.480:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 12:45:58.505 [7764:8344:1001/124558.505:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 12:45:58.516 [7764:8344:1001/124558.506:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 12:48:14.484 [16600:22764:1001/124814.484:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 12:48:57.436 [16600:3752:1001/124857.421:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 12:48:57.436 [16600:3752:1001/124857.436:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 12:49:19.264 [16600:3752:1001/124919.264:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 12:49:21.218 [16600:3752:1001/124921.218:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 12:50:04.998 [16600:3752:1001/125004.998:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 12:50:10.112 [16600:3752:1001/125010.112:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 12:51:31.730 [16600:3752:1001/125131.730:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 12:51:51.604 [16600:3752:1001/125151.603:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 12:54:13.203 [16600:3752:1001/125413.203:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 12:55:03.698 [16600:3752:1001/125503.698:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 13:00:34.53 [16600:3752:1001/130034.053:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 13:01:32.953 [16600:3752:1001/130132.953:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 13:11:32.967 [16600:3752:1001/131132.967:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 13:21:32.978 [16600:3752:1001/132132.978:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 13:31:32.989 [16600:3752:1001/133132.989:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 13:41:33.01 [16600:3752:1001/134132.999:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 13:51:33.05 [16600:3752:1001/135133.005:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 14:01:33.17 [16600:3752:1001/140133.017:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 14:11:33.30 [16600:3752:1001/141133.030:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 14:21:33.43 [16600:3752:1001/142133.043:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 14:31:33.54 [16600:3752:1001/143133.054:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 14:41:33.56 [16600:3752:1001/144133.056:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 14:53:16.772 [23188:1832:1001/145316.772:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 14:53:30.15 [23188:19820:1001/145330.015:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 14:53:30.15 [23188:19820:1001/145330.015:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 14:53:50.622 [23188:19820:1001/145350.622:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 14:53:51.170 [23188:19820:1001/145351.170:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 14:54:36.933 [23188:19820:1001/145436.933:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 14:54:46.488 [23188:19820:1001/145446.488:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 14:56:27.110 [23188:19820:1001/145627.110:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 14:56:44.687 [23188:19820:1001/145644.687:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 14:59:53.836 [23188:19820:1001/145953.836:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:00:36.334 [23188:19820:1001/150036.334:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:05:48.323 [23188:19820:1001/150548.323:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:07:16.95 [23188:19820:1001/150716.095:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:17:16.99 [23188:19820:1001/151716.099:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:27:16.106 [23188:19820:1001/152716.106:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:34:20.707 [24016:17028:1001/153420.707:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 15:34:30.363 [24016:1040:1001/153430.362:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:34:30.370 [24016:1040:1001/153430.363:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:34:54.29 [24016:1040:1001/153454.028:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:34:56.410 [24016:1040:1001/153456.410:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:35:47.980 [24016:1040:1001/153547.978:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:35:50.620 [24016:1040:1001/153550.619:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:37:38.730 [24016:1040:1001/153738.727:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:37:41.753 [24016:1040:1001/153741.751:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:41:20.976 [24016:1040:1001/154120.973:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:41:22.408 [24016:1040:1001/154122.405:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:42:27.430 [15924:23024:1001/154227.430:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 15:42:35.728 [15924:9628:1001/154235.728:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:42:35.764 [15924:9628:1001/154235.728:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:43:01.644 [15924:9628:1001/154301.644:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:43:03.676 [15924:9628:1001/154303.676:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:43:47.49 [15924:9628:1001/154347.048:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:43:58.404 [15924:9628:1001/154358.404:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:45:19.588 [15924:9628:1001/154519.588:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:45:43.136 [15924:9628:1001/154543.136:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:48:26.911 [15924:9628:1001/154826.911:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:49:42.78 [15924:9628:1001/154942.078:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:51:44.367 [24980:13556:1001/155144.367:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 15:51:51.340 [24980:10624:1001/155151.340:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:51:51.371 [24980:10624:1001/155151.340:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:52:18.09 [24980:10624:1001/155218.009:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:52:19.958 [24980:10624:1001/155219.956:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:53:10.510 [24980:10624:1001/155310.509:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:53:14.492 [24980:10624:1001/155314.491:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:53:21.957 [24192:8432:1001/155321.957:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 15:53:26.756 [24192:15896:1001/155326.756:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:53:26.770 [24192:15896:1001/155326.756:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:53:53.763 [24192:15896:1001/155353.763:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:53:55.124 [24192:15896:1001/155355.124:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:54:37.89 [24192:15896:1001/155437.089:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:54:44.172 [24192:15896:1001/155444.172:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:56:25.385 [24192:15896:1001/155625.385:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:56:32.170 [24192:15896:1001/155632.170:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:57:39.986 [15620:23772:1001/155739.986:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 15:57:43.143 [15620:24108:1001/155743.142:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:57:43.154 [15620:24108:1001/155743.143:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:58:04.192 [15620:24108:1001/155804.192:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:58:11.526 [15620:24108:1001/155811.526:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 15:58:45.280 [15620:24108:1001/155845.280:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 15:59:08.438 [15620:24108:1001/155908.438:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 16:00:33.593 [15620:24108:1001/160033.593:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 16:00:43.117 [15620:24108:1001/160043.117:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 16:03:52.99 [15620:24108:1001/160352.099:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 16:04:13.545 [15620:24108:1001/160413.545:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 16:10:24.272 [15620:24108:1001/161024.272:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 16:11:40.140 [15620:24108:1001/161140.140:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 16:13:20.571 [15620:24108:1001/161320.571:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+10月 01, 2020 16:40:37.671 [15620:24108:1001/164037.671:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+10月 01, 2020 16:40:44.511 [15620:24108:1001/164044.506:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 16:50:44.528 [15620:24108:1001/165044.528:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 17:00:44.553 [15620:24108:1001/170044.551:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 17:10:44.557 [15620:24108:1001/171044.555:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 17:20:44.572 [15620:24108:1001/172044.572:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 17:30:44.590 [15620:24108:1001/173044.590:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 17:31:56.995 [24636:21360:1001/173156.984:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 17:32:15.324 [24740:21052:1001/173215.324:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 17:32:21.207 [24740:12736:1001/173221.206:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 17:32:21.273 [24740:12736:1001/173221.210:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 17:32:49.744 [20348:11348:1001/173249.744:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 17:33:29.850 [25196:26448:1001/173329.850:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 17:33:35.574 [25196:23752:1001/173335.573:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 17:33:35.593 [25196:23752:1001/173335.575:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 17:33:56.06 [25196:23752:1001/173356.006:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 17:34:03.827 [25196:23752:1001/173403.827:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 17:34:47.415 [25196:23752:1001/173447.415:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 17:34:59.104 [25196:23752:1001/173459.102:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 17:36:07.950 [25196:23752:1001/173607.950:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 17:36:35.824 [25196:23752:1001/173635.824:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 17:37:30.215 [25196:23752:1001/173730.215:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+10月 01, 2020 19:23:45.168 [25196:23752:1001/192342.734:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 19:23:45.176 [25196:23752:1001/192342.749:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+10月 01, 2020 19:23:48.968 [25196:23752:1001/192348.968:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 19:23:56.410 [25196:23752:1001/192356.410:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+10月 01, 2020 19:24:20.500 [25196:23752:1001/192420.500:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+10月 01, 2020 19:25:36.774 [23268:24432:1001/192536.773:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 19:25:40.556 [23268:17808:1001/192540.555:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 19:25:40.564 [23268:17808:1001/192540.557:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 19:26:06.143 [23268:17808:1001/192606.141:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 19:26:10.421 [23268:17808:1001/192610.421:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 19:27:05.735 [23268:17808:1001/192705.735:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 19:27:09.763 [23268:17808:1001/192709.762:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 19:28:40.374 [23268:17808:1001/192840.374:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 19:29:01.485 [23268:17808:1001/192901.485:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 19:32:04.543 [23268:17808:1001/193204.542:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 19:32:16.169 [23268:17808:1001/193216.169:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 19:33:57.27 [23268:17808:1001/193357.027:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 19:34:02.466 [23268:17808:1001/193402.466:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 19:37:50.502 [23268:17808:1001/193750.502:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 19:44:02.469 [23268:17808:1001/194402.469:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 19:46:35.734 [8440:25592:1001/194635.733:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 19:46:40.566 [8440:9996:1001/194640.564:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 19:46:40.595 [8440:9996:1001/194640.569:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 19:47:05.510 [8440:9996:1001/194705.506:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 19:47:09.601 [8440:9996:1001/194709.601:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 19:47:50.744 [8440:9996:1001/194750.744:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 19:47:53.571 [8440:9996:1001/194753.571:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 19:49:18.845 [8440:9996:1001/194918.845:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 19:49:21.161 [8440:9996:1001/194921.161:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 19:52:33.778 [8440:9996:1001/195233.778:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 19:53:00.449 [8440:9996:1001/195300.449:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 20:00:10.297 [8440:9996:1001/200010.297:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 20:00:41.870 [8440:9996:1001/200041.870:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 20:10:10.314 [8440:9996:1001/201010.314:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 20:20:10.318 [8440:9996:1001/202010.318:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 20:30:10.330 [8440:9996:1001/203010.330:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 20:40:10.348 [8440:9996:1001/204010.348:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 20:50:10.365 [8440:9996:1001/205010.364:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:00:10.400 [8440:9996:1001/210010.394:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:10:10.404 [8440:9996:1001/211010.404:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:20:10.428 [8440:9996:1001/212010.423:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:28:53.188 [26172:20184:1001/212853.188:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 21:29:01.732 [26172:2368:1001/212901.732:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:29:01.852 [26172:2368:1001/212901.733:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:29:22.611 [26172:2368:1001/212922.610:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:29:28.761 [26172:2368:1001/212928.761:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:30:19.894 [26172:2368:1001/213019.894:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:30:20.575 [26172:2368:1001/213020.575:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:32:08.817 [26172:2368:1001/213208.816:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:32:09.324 [26172:2368:1001/213209.323:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:35:03.764 [26172:2368:1001/213503.762:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:35:27.146 [13148:11368:1001/213527.146:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 21:35:33.470 [13148:26428:1001/213533.469:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:35:33.485 [13148:26428:1001/213533.471:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:35:57.946 [13148:26428:1001/213557.946:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:35:59.582 [13148:26428:1001/213559.582:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:36:43.880 [13148:26428:1001/213643.880:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:36:55.216 [13148:26428:1001/213655.216:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:38:07.103 [13148:26428:1001/213807.099:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:38:26.445 [13148:26428:1001/213826.445:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:39:57.283 [10500:3260:1001/213957.283:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 21:40:03.853 [10500:14608:1001/214003.852:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:40:03.864 [10500:14608:1001/214003.854:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:40:26.324 [10500:14608:1001/214026.324:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:40:26.759 [10500:14608:1001/214026.758:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:41:10.761 [10500:14608:1001/214110.761:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:41:16.709 [10500:14608:1001/214116.709:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:42:49.820 [11324:20920:1001/214249.820:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 21:42:58.479 [11324:16920:1001/214258.478:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:42:58.497 [11324:16920:1001/214258.479:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:43:23.231 [11324:16920:1001/214323.227:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:43:23.861 [11324:16920:1001/214323.860:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:44:06.669 [11324:16920:1001/214406.669:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:44:20.498 [11324:16920:1001/214420.495:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:46:03.561 [11324:16920:1001/214603.561:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:46:12.201 [11324:16920:1001/214612.201:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:46:59.797 [18020:11524:1001/214659.797:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 21:47:05.568 [18020:21460:1001/214705.567:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:47:05.577 [18020:21460:1001/214705.568:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:47:30.135 [18020:21460:1001/214730.087:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:47:35.308 [18020:21460:1001/214735.306:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:48:20.416 [18020:21460:1001/214820.415:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:48:25.323 [18020:21460:1001/214825.317:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:49:41.785 [18020:21460:1001/214941.785:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:50:25.234 [18020:21460:1001/215025.234:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:52:42.513 [18020:21460:1001/215242.513:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:53:46.422 [26112:14600:1001/215346.422:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 21:53:56.636 [26112:14396:1001/215356.635:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:53:56.649 [26112:14396:1001/215356.637:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:54:16.899 [26112:14396:1001/215416.898:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:54:26.336 [26112:14396:1001/215426.336:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:54:59.784 [26112:14396:1001/215459.780:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:55:10.05 [26112:14396:1001/215510.004:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:56:32.938 [15492:24256:1001/215632.938:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 21:56:35.545 [15492:6420:1001/215635.544:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:56:35.556 [15492:6420:1001/215635.545:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:56:59.245 [15492:6420:1001/215659.244:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:57:03.230 [15492:6420:1001/215703.230:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:57:39.242 [24888:23944:1001/215739.242:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 21:57:49.862 [17808:23324:1001/215749.862:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 21:58:01.263 [17808:9032:1001/215801.262:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:58:01.280 [17808:9032:1001/215801.264:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:58:26.582 [17808:9032:1001/215826.582:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:58:27.810 [17808:9032:1001/215827.810:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:59:13.141 [17808:9032:1001/215913.141:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:59:15.536 [17808:9032:1001/215915.536:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 21:59:42.333 [18852:1424:1001/215942.333:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 21:59:53.02 [23764:20604:1001/215953.002:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10月 01, 2020 21:59:58.314 [23764:25460:1001/215958.313:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 21:59:58.325 [23764:25460:1001/215958.314:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 22:00:20.927 [23764:25460:1001/220020.927:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 22:00:23.718 [23764:25460:1001/220023.718:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 22:01:05.261 [23764:25460:1001/220105.260:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 22:01:06.570 [23764:25460:1001/220106.570:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 22:02:37.510 [23764:25460:1001/220237.510:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 22:02:41.384 [23764:25460:1001/220241.384:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 22:05:47.920 [23764:25460:1001/220547.920:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 22:06:22.46 [23764:25460:1001/220622.042:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 22:11:51.599 [23764:25460:1001/221151.599:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 22:13:25.458 [23764:25460:1001/221325.458:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+10月 01, 2020 22:21:51.606 [23764:25460:1001/222151.606:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 22:28:03.900 [23764:25460:1001/222803.900:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 22:28:08.651 [23764:25460:1001/222808.651:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10月 01, 2020 22:28:11.86 [23764:25460:1001/222811.086:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202

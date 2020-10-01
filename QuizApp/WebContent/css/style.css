@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.order{
+	color:blue;/*文字色の指定*/
+	font-size:50px;/*文字のサイズ*/
+	font-weight:100px;/*文字の太さ*/
+	display:inline-block;/**/
+}

@@ -6,12 +6,12 @@ import java.io.Serializable;
 public class AnswerData implements Serializable {
 	//③カプセル化されたフィールドを持つ
 	private int score;
-	private String answer;
+	private double answer;
 	//④publicで引数のないコンストラクタを持つ
 	public AnswerData() {    }
 	//⑤命名規則に従って(キャメルケース)書かれた
 		//ゲッター、セッターを持つ
-	public AnswerData(String answer) {
+	public AnswerData(double answer) {
 		this.answer = answer;
 	}
 
@@ -23,7 +23,7 @@ public class AnswerData implements Serializable {
 		this.score = score;
 	}
 
-	public String getAnswer() {
+	public double getAnswer() {
 		return answer;
 	}
 

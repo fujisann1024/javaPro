@@ -27,7 +27,7 @@ public class AnswerLogic {
 		}
 	}
 
-	public void setScore(AnswerData answerData,
+	public void setScore(AnswerData scoreData,
 	List<Double> truthDataList,List<AnswerData> answerDataList) {
 		int score = 0;
 		//テスト2
@@ -38,17 +38,20 @@ public class AnswerLogic {
         	 * ③answer.getAnswer()の戻り値はString型なので
         	 * Double.parseDouble()の引数に入れて戻り値をdouble型に変換する
         	 * */
-        	double ans = Double.parseDouble(answer.getAnswer());
+        	double ans = answer.getAnswer();
         	for(double truth : truthDataList) {
         		if(ans == truth) {
         			score += 10;
         			//ここのループ文が回答を比較するたびにすべての
         			//正解リストを検索してしまう->
-        			break;
+
+        		}else {
+        			score += 0;
+
         		}
         	}
         }
-		answerData.setScore(score);
+		scoreData.setScore(score);
 	}
 
 

@@ -30,13 +30,13 @@ public class AnswerLogic {
 	public void setScore(AnswerData scoreData,
 	List<Double> truthDataList,List<AnswerData> answerDataList) {
 		int score = 0;
-		//テスト2
+		
         for(AnswerData answer : answerDataList){
         	/* ①answerDataListをanswerインスタンスとして一個ずつ前から取り出す
         	 * ②answer = new AnswerData();と同じで
         	 * 格納された答えを取り出すgetAnswer()にアクセス
-        	 * ③answer.getAnswer()の戻り値はString型なので
-        	 * Double.parseDouble()の引数に入れて戻り値をdouble型に変換する
+        	 * ③answer.getAnswer()の戻り値はdouble型なので
+        	 * double ans変数に格納していく
         	 * */
         	double ans = answer.getAnswer();
         	for(double truth : truthDataList) {

@@ -1,8 +1,0 @@
-
-public class test {
-	public static void main(String[] args) {
-		double number = 13.45;
-		double number = Math.round(number * 100)/100;
-
-	}
-}

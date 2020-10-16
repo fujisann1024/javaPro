@@ -1,7 +1,0 @@
-package quizModel;
-
-public class QuizPattern {
-	public  dispQuestions(QuizData quizdata) {
-		
-	}
-}

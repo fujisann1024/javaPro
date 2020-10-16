@@ -1,8 +1,0 @@
-package quizModel;
-
-import java.io.Serializable;
-
-public class answerData implements Serializable {
-	private double answer;
-	private int score;
-}

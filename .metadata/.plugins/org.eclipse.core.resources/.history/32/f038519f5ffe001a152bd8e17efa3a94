@@ -1,7 +1,0 @@
-
-public class test {
-	public static void main(String[] args) {
-		double number = (int)13.65;
-		System.out.println(Math.number);
-	}
-}

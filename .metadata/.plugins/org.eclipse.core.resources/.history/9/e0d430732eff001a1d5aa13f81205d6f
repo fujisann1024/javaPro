@@ -1,7 +1,0 @@
-package quizModel;
-
-import java.io.Serializable;
-
-public class problemData implements Serializable {
-
-}

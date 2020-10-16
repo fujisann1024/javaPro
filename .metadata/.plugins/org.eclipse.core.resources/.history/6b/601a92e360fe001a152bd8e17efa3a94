@@ -1,9 +1,0 @@
-
-public class test {
-	public static void main(String[] args) {
-		double number = 13.55;
-		number = Math.round(number * 100)/100;
-		System.out.println(number);
-
-	}
-}

@@ -5,6 +5,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class KanjiDAO {
 	//データベース接続に使用する情報
@@ -20,7 +22,10 @@ public class KanjiDAO {
 	ResultSet rs = null;
 
 	//すべてのテーブルの値を表示するメソッド
-	public void findAll() {
+	public Map<String, String> findAll() {
+		//格納するためのMapを生成
+		Map<String, String> readKanjiMap = new HashMap<>();
+
 		try {
 		//データベース接続
 		conn =
@@ -38,25 +43,32 @@ public class KanjiDAO {
 		//SQL文の実行
 		rs = preSta.executeQuery();
 		System.out.println("SQL文を実行しました");
-		
+
 		//カラムの値を取り出す
 		while(rs.next()) {
 			int number = rs.getInt("number");
 			String name = rs.getString("name");
 			String ruby = rs.getString("ruby");
 			String mean = rs.getString("mean");
+			System.out.println(number);
 			System.out.println(name);
 			System.out.println(ruby);
+			System.out.println(mean);
+
+			//生成したMapにnameとrubyを格納
+			readKanjiMap.put(name,ruby);
 		}
 
 		} catch (SQLException e) {
 			e.printStackTrace();
+			return null;
 		}finally {
 			if(conn != null) {
 				try {
 					conn.close();
 				} catch (SQLException e) {
 					e.printStackTrace();
+					return null;
 				}
 			}
 			if(preSta != null ) {
@@ -64,6 +76,7 @@ public class KanjiDAO {
 					preSta.close();
 				} catch (SQLException e) {
 					e.printStackTrace();
+					return null;
 				}
 			}
 			if(rs != null ) {
@@ -71,9 +84,12 @@ public class KanjiDAO {
 					rs.close();
 				} catch (SQLException e) {
 					e.printStackTrace();
+					return null;
 				}
 			}
 		}
+		//while文で格納した値を返す
+		return readKanjiMap;
 	}
 
 	public static void main(String[] args) {

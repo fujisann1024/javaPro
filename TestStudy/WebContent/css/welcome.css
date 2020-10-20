@@ -1,0 +1,36 @@
+@charset "UTF-8";
+header{
+	background-color:blue;
+	border-bottom:solid;
+}
+
+header span {
+	font-size:30px;
+	color:white;
+
+}
+
+header span a {
+	color:black;
+	margin-left:70px;
+	margin-right:70px;
+	font-size:15px;
+	vertical-align:baseline;/*親要素のベースラインに揃える*/
+	cursor:move;
+}
+
+
+
+
+
+body{
+	background-color:skyblue;
+}
+
+.title{
+	color:#0000a0;/*文字色*/
+	font-size:50px;/*文字のサイズ*/
+	font-family:"MSゴシック";/*文字の種類*/
+	text-align:center;
+
+}

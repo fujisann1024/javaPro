@@ -7,7 +7,6 @@ header{
 header span {
 	font-size:30px;
 	color:white;
-
 }
 
 header span a {
@@ -18,9 +17,6 @@ header span a {
 	vertical-align:baseline;/*親要素のベースラインに揃える*/
 	cursor:move;
 }
-
-
-
 
 
 body{

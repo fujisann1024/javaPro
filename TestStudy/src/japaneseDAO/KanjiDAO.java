@@ -105,7 +105,7 @@ public class KanjiDAO {
 		List<KanjiQuiz> readKanjiQuiz = kanjiDAO.findAll();
 
 		for(KanjiQuiz value : readKanjiQuiz) {
-			System.out.println(value.getName() + "=>" + value.getArea());
+			System.out.println(value.getName() + "=>" + value.getRuby());
 		}
 		System.out.println();
 	}

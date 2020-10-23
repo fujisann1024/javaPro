@@ -34,6 +34,8 @@ public class Login extends HttpServlet {
 
 		//セッションの確保
 		HttpSession session = request.getSession();
+		//セッションタイムアウトの設定
+		session.setMaxInactiveInterval(3600 * 24);
 
 		//DAOの宣言
 		AccountDAO accountDAO = new AccountDAO();

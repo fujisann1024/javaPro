@@ -1,0 +1,82 @@
+#データベースの一覧を確認
+SHOW DATABASES;
+
+#Quizデータベースの作成
+CREATE DATABASE quiz;
+
+#再度確認
+SHOW DATABASES;
+#間違えた場合は、DROP DATABASE quiz;
+
+#Quizデータベースの指定
+use quiz
+
+#指定されたかどうかの確認
+SELECT DATABASE();
+
+#指定したデータベースのテーブルの一覧を表示
+SHOW TABLES;
+
+#accountテーブルの作成
+CREATE TABLE account (
+user_id INT PRIMARY KEY AUTO_INCREMENT,
+user_name VARCHAR(50),
+email VARCHAR(100),
+pass VARCHAR(100),
+morf VARCHAR(5)
+);
+
+#テストデータ
+INSERT INTO account (user_name,pass,email,morf)
+VALUES ("たかし","1234","gmail.com","男");
+
+
+#2回目以降は#を外してDROP
+#DROP TABLE kanji;
+
+CREATE TABLE kanji(
+id INT NOT NULL,
+area INT NOT NULL,
+name VARCHAR(10) NOT NULL,
+ruby VARCHAR(20) NOT NULL
+);
+
+DESC kanji;
+
+#確認用データ
+INSERT INTO kanji (id,area,name,ruby)
+VALUES (1,10,'専門','せんもん'),
+       (1,20,'机上','きじょう')
+;
+#追加データ
+INSERT INTO kanji (id,area,name,ruby)
+VALUES (2,10,'賃貸','ちんたい'),
+       (2,20,'糖分','とうぶん'),
+       (3,10,'窓口','まどぐち'),
+       (3,20,'額面','がくめん'),
+       (4,10,'俳優','はいゆう'),
+       (4,20,'宝刀','ほうとう'),
+       (5,10,'吸引','きゅういん'),
+       (5,20,'選択','せんたく'),
+       (6,10,'正座','せいざ'),
+       (6,20,'対策','たいさく'),
+       (7,10,'追跡','ついせき'),
+       (7,20,'究極','きゅうきょく'),
+       (8,10,'地獄','じごく'),
+       (8,20,'困難','こんなん'),
+       (9,10,'就職','しゅうしょく'),
+       (9,20,'穀物','こくもつ'),
+       (10,10,'限界','げんかい'),
+       (10,20,'講義','こうぎ')
+;
+
+SELECT * FROM kanji;
+
+#
+SELECT * FROM kanji WHERE area = 10;
+SELECT * FROM kanji WHERE area = 20;
+
+
+#ただし分野ごとテーブルを作るのであればプライマリーキーの設定はむしろ有効
+
+

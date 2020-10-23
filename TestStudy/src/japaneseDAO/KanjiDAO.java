@@ -13,7 +13,7 @@ import japaneseModel.KanjiQuiz;
 public class KanjiDAO {
 	//データベース接続に使用する情報
 	private final String JDBC_URL =
-	"jdbc:mysql://localhost:3306/docotsubu?characterEncoding=UTF-8&serverTimezone=JST";
+	"jdbc:mysql://localhost:3306/quiz?characterEncoding=UTF-8&serverTimezone=JST";
 	private final String DB_USER = "root";
 	private final String DB_PASS = "root";
 	//データベース接続のためのオブジェクト変数
@@ -42,11 +42,9 @@ public class KanjiDAO {
 
 		//SQL文の発行
 		preSta = conn.prepareStatement(sql);
-		System.out.println("SQL文を発行しました");
 
 		//SQL文の実行
 		rs = preSta.executeQuery();
-		System.out.println("SQL文を実行しました");
 
 		//カラムの値を取り出す
 		while(rs.next()) {
@@ -100,13 +98,13 @@ public class KanjiDAO {
 	}
 	//
 	public static void main(String[] args) {
-
-		KanjiDAO kanjiDAO = new KanjiDAO();
-		List<KanjiQuiz> readKanjiQuiz = kanjiDAO.findAll();
-
-		for(KanjiQuiz value : readKanjiQuiz) {
-			System.out.println(value.getName() + "=>" + value.getRuby());
-		}
-		System.out.println();
+//
+//		KanjiDAO kanjiDAO = new KanjiDAO();
+//		List<KanjiQuiz> readKanjiQuiz = kanjiDAO.findAll();
+//		Collections.shuffle(readKanjiQuiz);
+//		for(KanjiQuiz value : readKanjiQuiz) {
+//			System.out.println(value.getName() + "=>" + value.getRuby());
+//		}
+//		System.out.println();
 	}
 }

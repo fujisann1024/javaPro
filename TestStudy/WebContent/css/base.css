@@ -1,0 +1,25 @@
+@charset "UTF-8";
+header{
+	background-color:blue;
+	border-bottom:solid;
+	text-align:left;
+}
+
+header .Project-name{
+	font-size:30px;
+	color:white;
+}
+
+body{
+	background-color:skyblue;
+	text-align:center;
+}
+
+form{
+	background-color:white;
+	display:block;
+	margin-top :100px;
+	border:solid;
+	padding:100px;
+}
+

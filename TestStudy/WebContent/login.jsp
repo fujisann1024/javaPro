@@ -59,5 +59,6 @@ form{
 <% } %>
 <input type="submit" value="送信">
 </form>
+<a href="welcome.jsp">戻る</a>
 </body>
 </html>

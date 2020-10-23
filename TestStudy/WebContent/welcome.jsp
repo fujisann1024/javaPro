@@ -17,7 +17,7 @@
 	    <a href="login.jsp">ログイン画面</a>
 	    <a href="#">新規会員登録</a>
 	    <% }else{ %>
-	    <a href = "WEB-INF/main.jsp">メイン画面へ</a>
+	    <a href = "/TestStudy/Main">メイン画面へ</a>
 	    <% } %>
 	<span>
 </header>

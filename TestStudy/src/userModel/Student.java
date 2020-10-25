@@ -21,10 +21,6 @@ public class Student implements Serializable{
 		this.userId = userId;
 		this.userName = userName;
 	}
-	//フォームから受け取った回答をインスタンスに格納するコンストラクタ
-	public Student(String answer) {
-
-	}
 
 	public int getUserId() {
 		return userId;
@@ -60,5 +56,8 @@ public class Student implements Serializable{
 	}
 	public void setPercentage(int percentage) {
 		this.percentage = percentage;
+	}
+	public void setAnswer(String answer) {
+		this.answer = answer;
 	}
 }

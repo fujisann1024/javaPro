@@ -15,9 +15,9 @@
 	 	<a href="#">新着情報</a>
 	 	<%if(student == null){ %>
 	    <a href="login.jsp">ログイン画面</a>
-	    <a href="#">新規会員登録</a>
+	    <a href="regist.jsp">新規会員登録</a>
 	    <% }else{ %>
-	    <a href = "/TestStudy/Main">メイン画面へ</a>
+	    <a href = "/Quiz/Main">メイン画面へ</a>
 	    <% } %>
 	<span>
 </header>

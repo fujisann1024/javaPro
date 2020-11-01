@@ -6,9 +6,13 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import japaneseModel.KanjiQuiz;
+import japaneseModel.Score;
 
 public class KanjiDAO {
 	//データベース接続に使用する情報
@@ -24,7 +28,7 @@ public class KanjiDAO {
 	ResultSet rs = null;
 
 	//すべてのテーブルの値を表示するメソッド
-	public List<KanjiQuiz> findAll() {
+	public List<KanjiQuiz> findAll(Score score) {
 		//格納するためのMapを生成
 		List<KanjiQuiz> readKanjiQuiz = new ArrayList<>();
 
@@ -35,24 +39,23 @@ public class KanjiDAO {
 		System.out.println("接続に成功しました");
 
 		//SQL文の準備(SELECT文)
-		String sql = "SELECT id + area AS number,";
-		sql += "name,ruby FROM kanji WHERE area = 10 ";
-		sql += "ORDER BY number";
-		System.out.println("sql文" + sql);
+		String sql = "SELECT name,ruby FROM kanji WHERE area = ?";
+
 
 		//SQL文の発行
 		preSta = conn.prepareStatement(sql);
+
+		//?に値をセット
+		preSta.setInt(1, score.getArea());
 
 		//SQL文の実行
 		rs = preSta.executeQuery();
 
 		//カラムの値を取り出す
 		while(rs.next()) {
-			int number = rs.getInt("number");
 			String name = rs.getString("name");
 			String ruby = rs.getString("ruby");
 
-			System.out.println(number);
 			System.out.println(name);
 			System.out.println(ruby);
 
@@ -68,43 +71,83 @@ public class KanjiDAO {
 			e.printStackTrace();
 			return null;
 		}finally {
-			if(conn != null) {
-				try {
-					conn.close();
-				} catch (SQLException e) {
-					e.printStackTrace();
-					return null;
-				}
-			}
-			if(preSta != null ) {
-				try {
-					preSta.close();
-				} catch (SQLException e) {
-					e.printStackTrace();
-					return null;
-				}
-			}
-			if(rs != null ) {
-				try {
-					rs.close();
-				} catch (SQLException e) {
-					e.printStackTrace();
-					return null;
-				}
-			}
+			close(conn,preSta,rs);
 		}
 		//while文で格納した値を返す
 		return readKanjiQuiz;
 	}
+
 	//
+	public Map<Integer,String> selectQuiz() {
+		Map<Integer,String> kindArea = new HashMap<>();
+		try {
+			conn =
+			DriverManager.getConnection(JDBC_URL,DB_USER,DB_PASS);
+
+			String sql =
+			"SELECT area, kind FROM kanji GROUP BY area, kind";
+
+			preSta = conn.prepareStatement(sql);
+
+			rs = preSta.executeQuery();
+
+			while(rs.next()) {
+				int area = rs.getInt("area");
+				String kind = rs.getString("kind");
+
+				kindArea.put(area, kind);
+			}
+		} catch (SQLException e) {
+			// TODO 自動生成された catch ブロック
+			e.printStackTrace();
+			return null;
+		}finally {
+			close(conn,preSta,rs);
+		}
+		//while文で格納したMapをreturnする
+		return kindArea;
+	}
+
+	public void close(Connection conn,
+	PreparedStatement preSta,ResultSet rs) {
+		if(conn != null) {
+			try {
+				conn.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		if(preSta != null ) {
+			try {
+				preSta.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		if(rs != null ) {
+			try {
+				rs.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	//テスト
 	public static void main(String[] args) {
-//
-//		KanjiDAO kanjiDAO = new KanjiDAO();
-//		List<KanjiQuiz> readKanjiQuiz = kanjiDAO.findAll();
-//		Collections.shuffle(readKanjiQuiz);
-//		for(KanjiQuiz value : readKanjiQuiz) {
-//			System.out.println(value.getName() + "=>" + value.getRuby());
-//		}
-//		System.out.println();
+
+		KanjiDAO kanjiDAO = new KanjiDAO();
+		Score score = new Score(1,10);
+		List<KanjiQuiz> readKanjiQuiz = kanjiDAO.findAll(score);
+		Collections.shuffle(readKanjiQuiz);
+		for(KanjiQuiz value : readKanjiQuiz) {
+			System.out.println(value.getName() + "=>" + value.getRuby());
+		}
+		System.out.println();
+
+		Map<Integer,String> test2 = kanjiDAO.selectQuiz();
+		for(Map.Entry<Integer, String> entry : test2.entrySet()) {
+			System.out.println(entry.getKey() + "=>" + entry.getValue());
+		}
 	}
 }

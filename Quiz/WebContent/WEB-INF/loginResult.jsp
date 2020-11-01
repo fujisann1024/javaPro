@@ -9,6 +9,6 @@
 
 <body>
 	<div>ログインに成功しました</div>
-	<a href="/TestStudy/Main">メイン画面へ</a>
+	<a href="/Quiz/Main">メイン画面へ</a>
 </body>
 </html>

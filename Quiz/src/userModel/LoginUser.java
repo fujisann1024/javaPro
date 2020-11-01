@@ -23,5 +23,5 @@ public class LoginUser implements Serializable{
 		return pass;
 	}
 
-
+	//
 }

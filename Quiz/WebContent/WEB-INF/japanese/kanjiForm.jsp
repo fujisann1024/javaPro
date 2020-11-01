@@ -6,8 +6,8 @@
                  java.util.ArrayList" %>
 <% List<KanjiQuiz> readKanjiList =
 (List<KanjiQuiz>)session.getAttribute("readKanjiList");
-List<Student> readAnswerList =
-(List<Student>)session.getAttribute("readAnswerList");
+List<String> readAnswerList =
+(List<String>)session.getAttribute("readAnswerList");
 %>
 
 <!DOCTYPE html>
@@ -36,7 +36,7 @@ List<Student> readAnswerList =
        readKanjiList.get(readAnswerList.size()); %>
      <%= kanji.getName() %></div>
 
-<form action="/TestStudy/Kanji" method="post">
+<form action="/Quiz/Kanji" method="post">
 <%= readAnswerList.size() + 1 %>問目
 	<div class="face">入力してね(`・ω・´)</div>
 	<input type="text" name = "answer" ><br>

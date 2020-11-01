@@ -56,7 +56,11 @@ public class Login extends HttpServlet {
 		if(email == null || email.length() == 0) {
 			emailError = "名前を入力して下さい";
 			request.setAttribute("emailError", emailError);
+		}else {
+
+			request.setAttribute("email", email);
 		}
+
 		if(pass == null || pass.length() == 0) {
 			passError = "パスワードを入力して下さい";
 			request.setAttribute("passError", passError);
@@ -83,7 +87,7 @@ public class Login extends HttpServlet {
 			dispatcher.forward(request, response);
 		}else {
 			session.setAttribute("student", student);
-			forwardPath = "WEB-INF/loginResult.jsp";
+			forwardPath = "/WEB-INF/loginResult.jsp";
 			dispatcher = request.getRequestDispatcher(forwardPath);
 			dispatcher.forward(request, response);
 		}

@@ -1,23 +1,28 @@
-package japaneseServlet;
+package userServlet;
 
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import userModel.barchart;
+
+
+
 /**
- * Servlet implementation class CheckKanji
+ * Servlet implementation class barchartServlet
  */
-@WebServlet("/CheckKanji")
-public class CheckKanji extends HttpServlet {
+@WebServlet("/barchartServlet")
+public class barchartServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public CheckKanji() {
+    public barchartServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -27,7 +32,13 @@ public class CheckKanji extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		barchart xxx = new barchart();
+		xxx.fileOut();
+
+
+
+
+
 	}
 
 	/**
@@ -36,6 +47,12 @@ public class CheckKanji extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
+	}
+
+	public static void main(String[] args) {
+		barchart xxx = new barchart();
+		xxx.fileOut();
+		System.out.println(xxx);
 	}
 
 }

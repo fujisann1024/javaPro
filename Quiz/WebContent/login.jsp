@@ -3,6 +3,10 @@
 <% String emailError = (String)request.getAttribute("emailError");
    String passError = (String)request.getAttribute("passError");
    String accountError = (String)request.getAttribute("accountError");
+   String email = (String)request.getAttribute("email");
+   if(email == null){
+	   email = "";
+   }
 %>
 <!DOCTYPE html>
 <html>
@@ -43,8 +47,8 @@ form{
 </header>
 <body>
 <div>メールアドレスとパスワードを入力して下さい</div>
-<form action="/TestStudy/Login" method="post">
-メールアドレス：<input type = "text" name = "email"><br>
+<form action="/Quiz/Login" method="post">
+メールアドレス：<input type = "text" name = "email" value="<%= email%>"><br>
 <% if(emailError != null){ %>
 <p class = "error"><%= emailError %></p>
 <% } %>

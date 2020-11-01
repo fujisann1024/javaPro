@@ -8,18 +8,16 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<h3>こんにちは<%=student.getUserName() %></h3>
+<h3>こんにちは<%=student.getUserName() %>さん</h3>
 <body>
-	<h1>勉強する科目を選んでください</h1>
-	<table border = "1">
-		<caption>勉強内容</caption>
-	   <tr>
-	     <th>漢字</th><th>社会</th>
-	   </tr>
-	   <tr>
-	     <td><a href="/TestStudy/Kanji">読み仮名</a></td>
-	     <td><a href="#">地図</a></td>
-	   </tr>
-	</table>
+	<h1>勉強する科目の分野を選んでください</h1>
+	<form action="/Quiz/Select" method="get">
+		<button name="subject" value="1">国語</button>
+		<button name="subject" value="2">算数</button>
+		<button name="subject" value="3">理科</button>
+		<button name="subject" value="4">社会</button>
+	</form>
+	<a href="welcome.jsp">TOPへ</a>
+	<a href="/Quiz/Logout">ログアウト</a>
 </body>
 </html>

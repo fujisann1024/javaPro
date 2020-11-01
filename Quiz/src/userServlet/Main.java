@@ -12,9 +12,7 @@ import javax.servlet.http.HttpSession;
 
 import userModel.Student;
 
-/**
- * Servlet implementation class Main
- */
+
 @WebServlet("/Main")
 public class Main extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -38,6 +36,7 @@ public class Main extends HttpServlet {
 			dispatcher = request.getRequestDispatcher("welcome.jsp");
 			dispatcher.forward(request, response);
 		}
+
 
 	}
 

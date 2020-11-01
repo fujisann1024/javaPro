@@ -62,8 +62,44 @@ public class AccountDAO {
 			return student;
 		}
 
+		//パスワードをチェックするメソッド
+		public String passCheck(String pass) {
+			String data = null;
+			try {
+				//データベース接続
+				conn = DriverManager.getConnection(JDBC_URL,DB_USER,DB_PASS);
+
+				String sql =
+				"SELECT pass FROM account WHERE pass = ? ";
+
+				//SQL文の発行
+				preSta = conn.prepareStatement(sql);
+
+				//?に引数から受け取った値をセット
+				preSta.setString(1,pass);
+
+				rs = preSta.executeQuery();
+
+				if(rs.next()) {
+					data = rs.getString("pass");
+
+				}else {
+					return null;
+				}
+
+			} catch (SQLException e) {
+				// TODO 自動生成された catch ブロック
+				e.printStackTrace();
+				return null;
+			}finally{
+				close(conn,preSta,rs);
+			}
+
+			return data;
+		}
+
 		//アカウントを登録するメソッド
-		public boolean registringAccount(Regist regist) {
+		public boolean create(Regist regist) {
 			try {
 				conn =
 				DriverManager.getConnection(JDBC_URL,DB_USER,DB_PASS);
@@ -145,7 +181,7 @@ public class AccountDAO {
 
 		//テスト
 		public static void main(String[] args) {
-//			AccountDAO accountDAO = new AccountDAO();
+			AccountDAO accountDAO = new AccountDAO();
 //			LoginUser loginUser = new LoginUser("gmail.com","1234");
 //			Student student = accountDAO.findAcount(loginUser);
 //			System.out.println(student);
@@ -153,5 +189,8 @@ public class AccountDAO {
 //			Regist regist = new Regist("けんじ","yahoo.mail","5678","男");
 //			boolean test = accountDAO.registringAccount(regist);
 //			System.out.println(test);
+			String test = accountDAO.passCheck("1234");
+			System.out.println(test);
+
 		}
 }
